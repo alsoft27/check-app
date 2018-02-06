@@ -12,3 +12,9 @@ info:
     artifact: @project.artifactId@
     name: @project.name@
     version: @project.version@
+    
+spring:
+  datasource:
+    platform: h2
+  jpa:
+    show-sql: true  
