@@ -1,0 +1,14 @@
+## Spring Boot Actuator Info Endpoint Customization
+info:
+
+  # static properties
+  app:
+    name: check-app
+    description: Spring Boot Actuator Info Endpoint Configuration Example
+
+  # build properties from maven
+  build:
+    groupId: @project.groupId@
+    artifact: @project.artifactId@
+    name: @project.name@
+    version: @project.version@
